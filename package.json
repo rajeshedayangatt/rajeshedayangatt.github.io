@@ -1,11 +1,11 @@
 {
     "title": "Resume",
-    "name": "startbootstrap-resume",
+    "name": "rajesh edayangat",
     "version": "5.0.4",
     "scripts": {
         "start": "gulp watch"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Web Developer Portfolio",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "homepage": "http://rajeshedayangat.tech",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "http://rajeshedayangat.tech",
+        "email": "rajeshedayangat@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Rajesh Edayangat",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/rajeshedayangatt"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.7.2",
