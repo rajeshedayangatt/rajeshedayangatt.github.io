@@ -190,3 +190,90 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.continer_skill {
+   margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+
+.Portfolio {
+    position: relative;
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+    width: 180px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    animation: winanim 0.5s ;
+-webkit-backface-visibility:visible;
+    backface-visibility:visible;
+    box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12)
+}
+
+.Portfolio:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.Portfolio img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px
+}
+
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 90%;
+    background:black;
+    color:hotpink
+}
+
+.nav {
+    padding:20px;
+    margin-left: 192px;
+    margin-top:-30px;
+}
+
+.nav li a { 
+    margin:5px;
+    padding: 15px 50px; 
+    font-size:16px; 
+    color:#ffffff; 
+    background: #000;
+    transition-duration: 0.4s;
+}
+.nav a:hover { 
+    background:#333; 
+}
+.nav .active { 
+    background-color:#0ed6ce !important;
+    color:#fff;
+}
+
+@keyframes winanim {
+    0%{opacity:0;transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+    
+}
+
+@media (min-width:320px)  { 
+.nav {
+  margin-left: 0px;
+}
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  {
+.nav {
+  margin-left: 0px;
+}
+ /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { 
+.nav {
+  margin-left: 0px;
+}
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
